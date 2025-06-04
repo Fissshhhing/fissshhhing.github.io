@@ -1,0 +1,97 @@
+/* Style sheet created by: Matthew Kampi*/
+
+/* Basic body style */
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Centered container */
+#container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Header style */
+header {
+  background-color: #1D1D1C;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+/* Navigation bar */
+nav {
+  text-align: center;
+  margin-top: 1em;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0.5em;
+  background-color: #9D9D93;
+  padding: 0.5em 1em;
+  border-radius: 1em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Main content area */
+main {
+  background-color: white;
+  padding: 1em;
+  margin-top: 1em;
+  border-radius: 1em;
+}
+
+main h1 {
+  text-align: center;
+  color: #1D1D1C;
+}
+
+main p {
+  line-height: 1.5;
+}
+
+main a {
+  display: inline-block;
+  margin-top: 1em;
+  background-color: #9D9D93;
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  text-decoration: none;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5em;
+  margin-top: 1em;
+}
+
+/* Footer */
+footer {
+  background-color: #1D1D1C;
+  color: white;
+  text-align: center;
+  font-size: 0.8em;
+  padding: 1em;
+  margin-top: 2em;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
